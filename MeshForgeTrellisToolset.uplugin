@@ -1,0 +1,41 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.0.1",
+  "FriendlyName": "MeshForge TRELLIS.2 Toolset",
+  "Description": "Exposes the TRELLIS.2 runner to agents: check Docker and the runner, start and stop the container, read its log. Adapter only - it forwards to MeshForgeTrellis and holds no logic. Removing it changes nothing about the provider.",
+  "Category": "Automation Forge",
+  "CreatedBy": "Bojan Andrejek",
+  "CreatedByURL": "https://kovati.dev",
+  "DocsURL": "https://github.com/AutomationForgeHQ/MeshForgeTrellisToolset",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/AutomationForgeHQ/MeshForgeTrellisToolset/issues",
+  "EditorOnly": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": true,
+  "EnabledByDefault": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MeshForgeTrellisToolset",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "TargetAllowList": [
+        "Editor"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "MeshForgeTrellis",
+      "Enabled": true,
+      "Comment": "The provider this exposes. Nothing here works without it."
+    },
+    {
+      "Name": "ToolsetRegistry",
+      "Enabled": true,
+      "Comment": "The registry agents read. Deliberately not ModelContextProtocol - MCP is one transport over this registry."
+    }
+  ]
+}
