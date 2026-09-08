@@ -1,7 +1,7 @@
 {
   "FileVersion": 3,
   "Version": 1,
-  "VersionName": "0.0.1",
+  "VersionName": "0.0.2",
   "FriendlyName": "MeshForge TRELLIS.2 Toolset",
   "Description": "Exposes the TRELLIS.2 runner to agents: check Docker and the runner, start and stop the container, read its log. Adapter only - it forwards to MeshForgeTrellis and holds no logic. Removing it changes nothing about the provider.",
   "Category": "Automation Forge",

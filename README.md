@@ -1,8 +1,8 @@
 # MeshForge TRELLIS.2 Toolset
 
-Exposes the [TRELLIS.2 runner](../MeshForgeTrellis) to agents through the Unreal toolset registry.
+Exposes the [TRELLIS.2 runner](https://kovati.dev/plugins/meshforge/) to agents through the Unreal toolset registry.
 
-**Version 0.0.1. Experimental, and not yet released.**
+**Version 0.0.1. Experimental.**
 
 An adapter and nothing more; deleting it changes nothing about the provider.
 

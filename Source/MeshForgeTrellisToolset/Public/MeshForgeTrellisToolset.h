@@ -93,7 +93,7 @@ class MESHFORGETRELLISTOOLSET_API UMeshForgeTrellisToolset : public UToolsetDefi
 
 public:
 
-	virtual FString GetToolsetVersion() const override { return TEXT("0.0.1"); }
+	virtual FString GetToolsetVersion() const override { return TEXT("0.0.2"); }
 
 	/**
 	 * Whether TRELLIS.2 can generate right now, and what to do about it if not.
