@@ -2,7 +2,7 @@
 
 Exposes the [TRELLIS.2 runner](https://kovati.dev/plugins/meshforge/) to agents through the Unreal toolset registry.
 
-**Version 0.0.2. Experimental.**
+<!-- forge:version -->**Version 0.0.3. Experimental.**<!-- /forge:version -->
 
 An adapter and nothing more; deleting it changes nothing about the provider.
 

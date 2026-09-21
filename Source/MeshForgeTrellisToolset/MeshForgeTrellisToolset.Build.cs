@@ -21,6 +21,7 @@ public class MeshForgeTrellisToolset : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"Projects",         // IPluginManager, so GetToolsetVersion() reads the descriptor
 				"UnrealEd",
 			}
 			);
