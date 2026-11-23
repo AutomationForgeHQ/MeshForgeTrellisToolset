@@ -1,3 +1,10 @@
+<!-- kovati:header -->
+<p align="center"><a href="https://kovati.dev/tools/meshforge/"><img src="https://raw.githubusercontent.com/AutomationForgeHQ/.github/main/profile/assets/meshforge.jpg" width="100%" alt="MeshForge, part of Kovati" /></a></p>
+
+<p align="center"><b>Agent toolset for MeshForge</b> · Part of <a href="https://kovati.dev"><b>Kovati</b></a>, production tools for Unreal games · <a href="https://kovati.dev/worldbuilding/">Worldbuilding</a><br />
+<a href="https://kovati.dev/tools/meshforge/">Product page</a> · <a href="https://docs.kovati.dev">Documentation</a> · <a href="https://kovati.dev/download/">Install with the Kovati Hub</a> · <a href="https://kovati.dev/discord">Discord</a></p>
+<!-- /kovati:header -->
+
 # MeshForge TRELLIS.2 Toolset
 
 Exposes the [TRELLIS.2 runner](https://kovati.dev/plugins/meshforge/) to agents through the Unreal toolset registry.
